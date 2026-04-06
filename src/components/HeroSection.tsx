@@ -11,7 +11,7 @@ export function HeroSection() {
       </div>
 
       <h1 className="mb-4 max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white text-balance">
-        Проектирование зданий и сметная документация
+        Проектирование: новое строительство, реконструкция, капитальный ремонт
       </h1>
 
       <p className="mb-8 max-w-xl text-gray-400">От архитектурных концепций до готовых смет — сопровождаем проект на каждом этапе.</p>
