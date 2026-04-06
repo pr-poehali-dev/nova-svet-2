@@ -17,9 +17,16 @@ export function HeroSection() {
       <p className="mb-8 max-w-xl text-gray-400">От архитектурных концепций до готовых смет — сопровождаем проект на каждом этапе.</p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4">
-        <Button className="rounded-full bg-violet-600 px-6 hover:bg-violet-700 text-white">
-          Обсудить проект <ArrowUpRight className="ml-2 h-4 w-4" />
-        </Button>
+        <a href="tel:+79212928080">
+          <Button className="rounded-full bg-violet-600 px-6 hover:bg-violet-700 text-white">
+            Позвонить <ArrowUpRight className="ml-2 h-4 w-4" />
+          </Button>
+        </a>
+        <a href="mailto:asvelsk@yandex.ru">
+          <Button variant="outline" className="rounded-full border-gray-700 bg-transparent text-white hover:bg-gray-800">
+            Написать на почту
+          </Button>
+        </a>
         <Button variant="outline" className="rounded-full border-gray-700 bg-transparent text-white hover:bg-gray-800">
           <Play className="mr-2 h-4 w-4 fill-violet-500 text-violet-500" /> Смотреть примеры
         </Button>

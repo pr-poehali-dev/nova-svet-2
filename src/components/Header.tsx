@@ -29,12 +29,19 @@ export function Header() {
         </a>
       </nav>
 
-      <Button
-        variant="outline"
-        className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
-      >
-        Получить консультацию
-      </Button>
+      <div className="flex items-center gap-3">
+        <a href="tel:+79212928080" className="text-sm text-gray-300 hover:text-white transition-colors hidden md:block">
+          +7 921 292-80-80
+        </a>
+        <a href="mailto:asvelsk@yandex.ru">
+          <Button
+            variant="outline"
+            className="rounded-full border-violet-500 text-violet-400 hover:bg-violet-500/10 hover:text-violet-300 bg-transparent"
+          >
+            Написать нам
+          </Button>
+        </a>
+      </div>
     </header>
   )
 }
