@@ -12,9 +12,9 @@ export function HeroSection() {
 
       <h1 className="mb-4 max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white">
         Проектирование:<br />
-        <span className="text-gray-300">новое строительство,</span><br />
-        <span className="text-gray-300">реконструкция,</span><br />
-        <span className="text-gray-300">капитальный ремонт</span>
+        <span className="text-gray-300">Новое строительство</span><br />
+        <span className="text-gray-300">Реконструкция</span><br />
+        <span className="text-gray-300">Капитальный ремонт</span>
       </h1>
 
       <p className="mb-8 max-w-xl text-gray-400">От архитектурных концепций до готовых смет — сопровождаем проект на каждом этапе.</p>
